@@ -1,68 +1,85 @@
 /*All block*/
 .* {
-    margin:0;
-    padding:0;
-  }
-.text_all_color{
-    color:#D3D3D3;
-    font-family: serif;
-    background-color:black;
+  margin: 0;
+  padding: 0;
+}
+.text_all_color {
+  color: #d3d3d3;
+  font-family: serif;
+  background-color: black;
 }
 /*Navigation menu*/
-.navigation_menu_projects, .navigation_menu_ins, .navigation_menu_tel, .navigation_menu_mail {
-    width: 210px;	height: 30px;
-    color:#9a9fa3;
-    padding: 10px 100px 0 50px;
-    background-color: #26252D;
-    display:inline-block;
-    margin-left: 30px;
-    font-style: oblique;
-    font-size: 18px;
+.navigation_menu_projects,
+.navigation_menu_ins,
+.navigation_menu_tel,
+.navigation_menu_mail {
+  width: 210px;
+  height: 30px;
+  color: #9a9fa3;
+  padding: 10px 100px 0 50px;
+  background-color: #26252d;
+  display: inline-block;
+  margin-left: 30px;
+  font-style: oblique;
+  font-size: 18px;
 }
 .navigation_menu_projects {
-    margin-left: 50px;
-    
+  margin-left: 50px;
 }
-
+.navigation_menu_ins:hover {
+  background-color: #ffff00;
+}
+.navigation_menu_projects:hover {
+  background-color: blueviolet;
+}
+.navigation_menu_tel:hover {
+  background-color: #5d76cb;
+}
+.navigation_menu_mail:hover {
+  background-color: #ff4d00;
+}
 
 /*Main Logo*/
 .main_logo {
-    margin: 30px 0 100px 300px;
-    height: 100px;
-    width: 600px;
+  margin: 30px 0 100px 300px;
+  height: 100px;
+  width: 600px;
 }
 
 /*Main two photo*/
 .main_photo {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 /*Left Sidebar*/
 .left_sidebar {
-    margin: -57px 0 0 0;
-    position: absolute;
-    right: 25px;
-    width: 220px;
-    height: 1500px;
-    background-color: #26252D;
-    font-style: oblique;
-    font-size: 18px;
+  margin: -57px 0 0 0;
+  position: absolute;
+  right: 25px;
+  width: 220px;
+  height: 1500px;
+  background-color: #26252d;
+  font-style: oblique;
+  font-size: 18px;
 }
 .Gallery_txt_left_sidebar {
-    padding-left: 50px;
-    margin-top: 10px;
-    color:#9a9fa3;
+  padding-left: 50px;
+  margin-top: 10px;
+  color: #9a9fa3;
 }
 .sidebar_photo_gallery {
-    width: 220px;
-    padding-left: 0px;
-    padding-bottom: 15px;
-    
-    
+  width: 220px;
+  padding-left: 0px;
+  padding-bottom: 15px;
 }
 /*About me*/
 .About_me {
-    margin: 20px 400px 20px 835px;
-    font-style: italic;
-    font-size: 20px;
-    color: #A0A0A4;
+  margin: 20px 400px 20px 835px;
+  font-style: italic;
+  font-size: 20px;
+  color: #efeff5;
+  text-align: center;
+}
+
+.red_color {
+  background-color: red;
 }
