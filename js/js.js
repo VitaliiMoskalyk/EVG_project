@@ -1,3 +1,21 @@
+const headLinksRef = document.querySelector('.navigation_menu_ins,.navigation_menu_projects,.navigation_menu_tel,.navigation_menu_mail');
+headLinksRef.addEventListener('mouseover', changeBackgroundColor);
+
+function changeBackgroundColor() {
+    console.log('jhgjhgfhj');
+    headLinksRef.style.backgroundColor= '#' + (Math.random().toString(16) + '000000').substring(2, 8).toUpperCase();
+};
+
+
+ console.log('jhgjhgfhj')
+
+
+
+
+
+
+
+
 // const galleryEl = document.querySelector('.left_sidebar');
 // console.log(galleryEl);
 
@@ -62,47 +80,47 @@
 
 
 
-const products = [{
-    name: 'сервоприводы',
-    description: 'lorem dghjhg cjhg cx jhg cjhhg cjg jh',
-    price: 2000,
-    available: true,
-    onSale: true,
-},
-{
-    name: 'протоны',
-    description: 'lorem dghjhg cjhg cx jhg cjhhg cjg jh',
-    price: 1200,
-    available: true,
-    onSale: true,
-    },
-{
-    name: 'роторы',
-    description: 'lorem dghjhg cjhg cx jhg cjhhg cjg jh',
-    price: 2500,
-    available: true,
-    onSale: true,
-}];
+// const products = [{
+//     name: 'сервоприводы',
+//     description: 'lorem dghjhg cjhg cx jhg cjhhg cjg jh',
+//     price: 2000,
+//     available: true,
+//     onSale: true,
+// },
+// {
+//     name: 'протоны',
+//     description: 'lorem dghjhg cjhg cx jhg cjhhg cjg jh',
+//     price: 1200,
+//     available: true,
+//     onSale: true,
+//     },
+// {
+//     name: 'роторы',
+//     description: 'lorem dghjhg cjhg cx jhg cjhhg cjg jh',
+//     price: 2500,
+//     available: true,
+//     onSale: true,
+// }];
 
-{/* <article class='product'>
-    <h2 class='product__name'>Название</h2>
-    <p class='product__descr'>Описание</p>
-    <p class='product__price'>Цена: </p>
-</article> */}
-// 
+// {/* <article class='product'>
+//     <h2 class='product__name'>Название</h2>
+//     <p class='product__descr'>Описание</p>
+//     <p class='product__price'>Цена: </p>
+// </article> */}
+// // 
 
-//const countSymbol = require('..');
+// //const countSymbol = require('..');
 
 
-const countSymbol = function (str, symbol) {
-    let result = 0;
-    str.split('').forEach(el => {
-        el === symbol? result++:0;
-    });
-    console.log(result);
-};
+// const countSymbol = function (str, symbol) {
+//     let result = 0;
+//     str.split('').forEach(el => {
+//         el === symbol? result++:0;
+//     });
+//     console.log(result);
+// };
 
-countSymbol('Hello', 'o'); // 1
-countSymbol('Hello', 'l'); // 2
-countSymbol('Hello', 'H'); // 1
-countSymbol('Hello', 'h'); // 0
+// countSymbol('Hello', 'o'); // 1
+// countSymbol('Hello', 'l'); // 2
+// countSymbol('Hello', 'H'); // 1
+// countSymbol('Hello', 'h'); // 0

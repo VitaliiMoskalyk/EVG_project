@@ -15,6 +15,7 @@
 .navigation_menu_mail {
   width: 210px;
   height: 30px;
+
   color: #9a9fa3;
   padding: 10px 100px 0 50px;
   background-color: #26252d;
@@ -26,7 +27,7 @@
 .navigation_menu_projects {
   margin-left: 50px;
 }
-.navigation_menu_ins:hover {
+/* .navigation_menu_ins:hover {
   background-color: #ffff00;
 }
 .navigation_menu_projects:hover {
@@ -37,7 +38,7 @@
 }
 .navigation_menu_mail:hover {
   background-color: #ff4d00;
-}
+} */
 
 /*Main Logo*/
 .main_logo {
